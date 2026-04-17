@@ -1,0 +1,19 @@
+{
+  "name": "adveloop",
+  "owner": {
+    "name": "Dennis Nasarov",
+    "email": "dennis.nasarov@gmail.com"
+  },
+  "metadata": {
+    "description": "Adversarial development loop plugin: Planner drives Generator + Evaluator in fresh cmux panes."
+  },
+  "plugins": [
+    {
+      "name": "adveloop",
+      "source": "./",
+      "description": "Adversarial dev loop — Planner sequentially drives a Generator and Evaluator in fresh cmux panes, with a hard pass/fail gate per deliverable.",
+      "category": "orchestration",
+      "tags": ["adversarial-dev", "cmux", "planner-generator-evaluator"]
+    }
+  ]
+}
