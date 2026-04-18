@@ -5,13 +5,13 @@
     "email": "dennis.nasarov@gmail.com"
   },
   "metadata": {
-    "description": "Adversarial development loop plugin: Planner drives Generator + Evaluator in fresh cmux panes."
+    "description": "GAN-inspired adversarial development loop plugin: Planner drives Generator + Evaluator in fresh cmux panes. Adapted from Anthropic's harness-design guidance for long-running agentic apps."
   },
   "plugins": [
     {
       "name": "adveloop",
       "source": "./",
-      "description": "Adversarial dev loop — Planner sequentially drives a Generator and Evaluator in fresh cmux panes, with a hard pass/fail gate per deliverable.",
+      "description": "GAN-inspired adversarial dev loop — Planner sequentially drives a Generator and Evaluator in fresh cmux panes, with a hard pass/fail gate per deliverable. Adapted from Anthropic's harness-design guidance for long-running agentic apps.",
       "category": "orchestration",
       "tags": ["adversarial-dev", "cmux", "planner-generator-evaluator"]
     }
