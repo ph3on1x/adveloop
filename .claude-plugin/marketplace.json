@@ -2,18 +2,21 @@
   "name": "adveloop",
   "owner": {
     "name": "Dennis Nasarov",
-    "email": "dennis.nasarov@gmail.com"
+    "url": "https://github.com/ph3on1x"
   },
   "metadata": {
-    "description": "GAN-inspired adversarial development loop plugin: Planner drives Generator + Evaluator in fresh cmux panes. Adapted from Anthropic's harness-design guidance for long-running agentic apps."
+    "description": "Moved to ph3on1x/agent-plugins-skills. This marketplace forwards to the new location."
   },
   "plugins": [
     {
       "name": "adveloop",
-      "source": "./",
-      "description": "GAN-inspired adversarial dev loop — Planner sequentially drives a Generator and Evaluator in fresh cmux panes, with a hard pass/fail gate per deliverable. Adapted from Anthropic's harness-design guidance for long-running agentic apps.",
-      "category": "orchestration",
-      "tags": ["adversarial-dev", "cmux", "planner-generator-evaluator"]
+      "description": "adveloop (moved to ph3on1x/agent-plugins-skills)",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ph3on1x/agent-plugins-skills.git",
+        "path": "skills/adveloop",
+        "ref": "main"
+      }
     }
   ]
 }
